@@ -1,0 +1,29 @@
+{
+  "name": "bxg-study",
+  "version": "0.1.0",
+  "description": "A boxuegu study portal module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony-async-await test.js"
+  },
+  "keywords": [
+    "async",
+    "await",
+    "study",
+    "boxuegu"
+  ],
+  "author": "iceStone <ice@micua.com> (http://www.micua.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/bxg-study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zce/bxg-study/issues"
+  },
+  "homepage": "https://github.com/zce/bxg-study#readme"
+}
