@@ -5,6 +5,7 @@ async function main () {
     console.clear()
     console.write('Input your age: ')
     const res = await console.read()
+    console.log(res)
     if (res === 'q' || res === 'quit' || res === 'exit') {
       console.write('Bye bye！\n')
       process.exit()
@@ -20,8 +21,8 @@ async function main () {
     } else {
       console.write('Input is invalidated.\n')
     }
-    console.write(`Put anykey to continue.`)
-    await console.readkey()
+    console.write(`Put enter to continue.`)
+    await console.read()
   }
 }
 
