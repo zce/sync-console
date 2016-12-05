@@ -1,6 +1,6 @@
 {
   "name": "bxg-study",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "description": "A boxuegu study portal module",
   "main": "index.js",
   "scripts": {
